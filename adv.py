@@ -4,7 +4,7 @@ from world import World
 
 import random
 from ast import literal_eval
-
+from util import Stack, Queue
 # Load world
 world = World()
 
@@ -43,6 +43,8 @@ traversal_path = []
     #Will need to convert this to a list of n/s/e/w directions before you can add it to your traversal path
 #If all paths explored, done
 
+#DFT until a dead end is reached
+#BFS to the nearest unexplored room
 
 # TRAVERSAL TEST
 visited_rooms = set()
