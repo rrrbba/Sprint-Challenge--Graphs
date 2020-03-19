@@ -29,6 +29,19 @@ player = Player(world.starting_room)
 # traversal_path = ['n', 'n']
 traversal_path = []
 
+#Write algo that picks random unexplored direction from current_room
+#travels and logs that direction
+#loop
+#should cause player to walk in dft(?)
+
+#Can find the path to shortest unexplored room by using bfs for a room with ? for an exit
+#If using bfs from homework make modifications
+#Instead of searching for target vertex, search for an exit with a ? as the value
+#If exit has been explored, 
+    #can put it in bfs queue like normal
+#Bfs will return the path as a list of room IDs
+    #Will need to convert this to a list of n/s/e/w directions before you can add it to your traversal path
+#If all paths explored, done
 
 
 # TRAVERSAL TEST
